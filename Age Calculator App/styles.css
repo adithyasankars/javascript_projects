@@ -10,7 +10,7 @@
     --indigo: #4B0082;
     --gradient-start: #8A2BE2;
     --gradient-end: #4B0082;
-    --gold: #FFD700;
+    --gold: #eee60b;
     --white: #FFFFFF;
     --light-blue-violet: #BA8FF7;
     --dark-slate-grey: #2F4F4F;
@@ -19,7 +19,7 @@
 
 body{
 
-    background: indigo;
+    background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(120,9,121,1) 35%, rgba(255,0,207,1) 100%);
     color: var(--dark-slate-grey);
 }
 
@@ -36,7 +36,7 @@ body{
 }
 
 .heading{
-    height: 50%;
+    height: 35%;
 }
 
 h1{
@@ -69,4 +69,45 @@ span{
 button{
     background: gold;
     color: var(--dark-slate-grey);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+    width: 30%;
+    height: 50%;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ddd956;
+}
+
+.date-container input[type = date]{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+
+
+}
+
+.date-container input::-webkit-calendar-picker-indicator {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+    
 }
