@@ -111,3 +111,11 @@ button:hover{
     cursor: pointer;
     
 }
+
+
+#result{
+    font-size: 20px;
+    color: #ddd956;
+    margin-top: 20px;
+    font-style: italic;
+}
