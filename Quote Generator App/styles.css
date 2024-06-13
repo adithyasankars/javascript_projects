@@ -85,11 +85,15 @@ body{
     height: 50px;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
     color: #fdfdfd;
     display: flex;
     align-items: center;
     justify-content: center;
+
     
 }
+
+
+
